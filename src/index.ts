@@ -20,19 +20,20 @@ async function main() {
     1
   );
 
+
   processAndSaveExtractedUrls(
-    "tripadvisor_home",
+    "tripadvisor_home.json",
     "tripadvisor_links",
     "tripadvisor_detailed_link"
   );
 
   await scrapeAndSaveMultiple(
-    "tripadvisor_cafe_links.json",
+    "tripadvisor_links.json",
     "tripadvisor_cafe_data",
     DETAILED_QUERY,
     1,
     0,
-    50
+    2
   );
 
   console.log("Scraping process finished.");
