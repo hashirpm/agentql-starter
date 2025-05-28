@@ -13,23 +13,6 @@ src/
   lib/                 # Query definitions, constants, and core helpers
 ```
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v18+ recommended)
-- pnpm (or npm/yarn)
-- Playwright
-- AgentQL API keys (set in `.env`)
-
-### Installation
-
-```sh
-pnpm install
-# or
-npm install
-```
-
 ### WebSocket Scraping Setup
 
 To scrape dynamic sites or use advanced scraping techniques, you can connect to a browser WebSocket using Chrome’s DevTools Protocol.
@@ -72,7 +55,6 @@ google-chrome \
 3. Set it as `WEBSOCKET_URL` in your `.env` file
 
 ### Environment Setup
-
 1. Copy the example environment file to create your own `.env` file in the project root:
    ```sh
    cp .env.example .env
@@ -82,6 +64,14 @@ google-chrome \
    AGENTQL_API_KEYS=your_key1,your_key2,...
    WEBSOCKET_URL=your_websocket_url
    ```
+   
+### Installation
+
+```sh
+pnpm install
+# or
+npm install
+```
 
 ### Running the Scraper
 
