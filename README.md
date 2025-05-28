@@ -90,7 +90,7 @@ The main workflow is defined in `src/index.ts`. It will:
 
 ### Customizing Scraping Logic
 
-- Add scraping website URL in `src/liv/const.ts`
+- Add scraping website URL in `src/lib/const.ts`
 - Edit queries in `src/lib/query.ts`
 - Add new data sources or modify existing ones in `src/index.ts`
 
